@@ -1,5 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  /* width: 1240px; */
+  margin: auto;
+  padding: 0px 60px;
+  font-family: "Work Sans", sans-serif;
+}
+
+#banner-part {
+  width: 100%;
+  background-image: url("../image/banner/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  width: 100%;
+  direction: rtl;
+  padding: 215px;
+}
+
+.banner-content h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 30px;
+}
+.banner-content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 5px;
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+
+.rglr-btn-style {
+  color: #005fac;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 22px 40px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
