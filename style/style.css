@@ -112,3 +112,42 @@
   font-size: 34px;
   content: "\2713\0020";
 }
+/* End failur part Style */
+
+/* Start Plan section style */
+#my-plan {
+  width: 100%;
+  overflow: hidden;
+  padding: 130px 0px;
+}
+.plan-title {
+  width: 100%;
+}
+.plan-title h2 {
+  font-size: 40px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.plan-box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 10px;
+}
+.box {
+  text-align: center;
+}
+.box img {
+  width: 72px;
+  padding-bottom: 28px;
+}
+
+.box h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.box p {
+  font-size: 17px;
+  color: grey;
+  font-weight: 500;
+}
