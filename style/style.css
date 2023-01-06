@@ -56,4 +56,59 @@
   border: none;
   cursor: pointer;
 }
+
+.rglr-btn-style:hover {
+  color: white;
+  padding: 20px 39px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
 /* End banner Style */
+
+/* Start Failurs part */
+#failures {
+  width: 100%;
+  padding: 120px 0px;
+}
+
+.failur-content {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failer-left-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.failur-des {
+  margin-left: 40px;
+}
+
+.failur-des h2 {
+  font-size: 40px;
+  padding-bottom: 35px;
+}
+
+.failur-des p {
+  color: #444343;
+  line-height: 28px;
+  word-spacing: 4px;
+  font-size: 17px;
+  padding-bottom: 25px;
+}
+
+.failur-des ul li {
+  font-size: 17px;
+  list-style-type: none;
+  line-height: 38px;
+}
+.failur-des ul li:before {
+  color: #16d887;
+  font-size: 34px;
+  content: "\2713\0020";
+}
