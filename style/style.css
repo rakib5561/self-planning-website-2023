@@ -12,7 +12,7 @@
 .container {
   width: 1240px;
   margin: auto;
-  padding: 0px 60px;
+  /* padding: 0px 60px; */
   font-family: "Work Sans", sans-serif;
 }
 
@@ -48,9 +48,9 @@
 
 .rglr-btn-style {
   color: #005fac;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 22px 40px;
+  padding: 20px 42px;
   text-transform: capitalize;
   border-radius: 5px;
   border: none;
@@ -59,11 +59,10 @@
 
 .rglr-btn-style:hover {
   color: white;
-  padding: 20px 39px;
+  padding: 18px 40px;
   background-color: transparent;
   border: 2px solid white;
 }
-
 /* End banner Style */
 
 /* Start Failurs part */
@@ -132,7 +131,6 @@
 .plan-box {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px 10px;
 }
 .box {
   text-align: center;
@@ -151,3 +149,35 @@
   color: grey;
   font-weight: 500;
 }
+
+/* End my plan section */
+
+/* Start Mind set */
+#midset-part {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+.mindset-content {
+  width: 100%;
+  padding: 60px 0px 40px 50px;
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 95, 172, 90%),
+      rgb(226, 226, 228, 50%)
+    ),
+    url("../image/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.mindset-content h2 {
+  color: white;
+  word-spacing: 8px;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+
+/* End Mindset Style */
