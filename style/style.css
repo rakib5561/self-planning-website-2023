@@ -248,12 +248,9 @@ header {
   text-transform: capitalize;
 }
 
-.daily-content {
-  display: flex;
-}
-
 .daily-des {
-  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .daily-des h3 {
@@ -271,12 +268,6 @@ header {
   line-height: 35px;
   font-size: 18px;
   padding-left: 5px;
-}
-
-.daily-des ul li:before {
-  /* color: #16d887; */
-  font-size: 34px;
-  content: "\2713\0020";
 }
 
 /* Start Footer */
