@@ -267,7 +267,7 @@ header {
   list-style-type: none;
   line-height: 35px;
   font-size: 18px;
-  padding-left: 5px;
+  text-align: left;
 }
 
 /* Start Footer */
