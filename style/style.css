@@ -37,7 +37,7 @@ header {
 }
 
 .logo img {
-  width: 15%;
+  width: 16%;
 }
 
 .menu-items {
@@ -226,6 +226,58 @@ header {
   margin-bottom: 20px;
 }
 /* End Mindset Style */
+
+/* Start daily plan */
+#routine-container {
+  width: 100%;
+  padding: 120px 0px;
+  background-color: aquamarine;
+}
+#routine-container h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+#routine-container p {
+  color: #444343;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.daily-content {
+  display: flex;
+}
+
+.daily-des {
+  width: 60%;
+}
+
+.daily-des h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.daily-des ul li {
+  color: #444343;
+  list-style-type: none;
+  line-height: 35px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.daily-des ul li:before {
+  /* color: #16d887; */
+  font-size: 34px;
+  content: "\2713\0020";
+}
 
 /* Start Footer */
 footer {
