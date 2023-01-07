@@ -6,14 +6,60 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Container for full webpage */
 .container {
   width: 1240px;
   margin: auto;
-  /* padding: 0px 60px; */
   font-family: "Work Sans", sans-serif;
+}
+
+/* Start Header */
+header {
+  top: 0;
+  position: sticky;
+  padding: 40px 20px;
+  background-color: whitesmoke;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+.logo {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.logo img {
+  width: 15%;
+}
+
+.menu-items {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-items li {
+  list-style-type: none;
+}
+
+.menu-items li a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.menu-items li a:hover {
+  color: #005fac;
 }
 
 #banner-part {
