@@ -238,7 +238,7 @@ footer {
 .footer-subscribe input {
   display: block;
   color: white;
-  width: 300px;
+  width: 310px;
   padding: 18px 20px;
   border: 1px solid grey;
   border-radius: 8px;
@@ -261,4 +261,20 @@ footer {
   background-color: transparent;
   border: 1px solid white;
   transition: 0.2s ease-in-out all;
+}
+/* End primary footer */
+
+.footer-copyright {
+  color: lightcyan;
+  width: 100%;
+  text-align: center;
+  background-color: #005fac;
+  padding: 20px 0px;
+  font-size: 16.5px;
+  text-transform: capitalize;
+  word-spacing: 4px;
+  border-bottom: 1px solid white;
+}
+.footer-copyright a {
+  color: yellowgreen;
 }
